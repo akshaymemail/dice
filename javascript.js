@@ -1,10 +1,10 @@
 //  Player 1
 let randomNumber1 = Math.floor( Math.random() * 6 ) + 1;
-document.querySelector('.dice .img1').src='images/dice'+randomNumber1+'.png';
+document.querySelector('.dice .img1').src='dice'+randomNumber1+'.png';
 
 //  Player 2
 let randomNumber2 = Math.floor( Math.random() * 6 ) + 1;
-document.querySelector('.dice .img2').src='images/dice'+randomNumber2+'.png';
+document.querySelector('.dice .img2').src='dice'+randomNumber2+'.png';
 
 // Show Result
 if(randomNumber1==randomNumber2){
