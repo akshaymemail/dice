@@ -32,34 +32,6 @@ img {
   width: 80%;
 }
 
-.play{
-  position: absolute;
-  top: 60%;
-  left: -50px;
-  background: teal;
-  border: none;
-  outline: none;
-  color: #f1f1f1;
-  transition: .5s ease-in-out;
-  width: 100px;
-  padding: 50px 5px;
-  border-radius: 0 10px 10px 0;
-}
-.play span{
-  float: right;
-  padding: 5px;
-  font-size: 22px;
-}
-.play i{
-  font-size: 40px;
-  padding: 5px;
-}
-.play i:hover{
-  border: 1px solid #f1f1f1;
-}
-.play:hover{
-  left: 0;
-}
 footer {
   margin-top: 5%;
   color: #EEEEEE;
